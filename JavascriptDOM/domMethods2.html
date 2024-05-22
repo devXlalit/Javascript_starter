@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="selectid">This is id</h1>
+    <h2>thsi is tag</h2>
+    <h3 class="selectClass">this is class</h3>
+    <h1>This is h1 2</h1>
+    <script>
+      // document.querySelector
+      // document.querySelectorAll
+
+      document.querySelector("#selectid").innerText = "Heading 1";
+      document.querySelector("h2").innerText = "Heading 2";
+      document.querySelector(".selectClass").innerText = "Heading 3";
+      const h1 = document.querySelectorAll("h1");
+      h1.innerText = "quryselector all";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="selectid">This is id</h1>
+    <h2>thsi is tag</h2>
+    <h3 class="selectClass">this is class</h3>
+    <script>
+      // 1 - select
+      // 2 - apply change
+      const heading1 = document.getElementById("selectid");
+      heading1.innerText = "Heading in changed";
+
+      const heading2 = document.getElementsByTagName("h2");
+      heading2.innerText = "Heading2";
+
+      const heading3 = document.getElementsByClassName("selectClass");
+      heading3.innerText = "heading3";
+
+      //   id
+      //   tagname
+      //   classname
+
+      
+    </script>
+  </body>
+</html>
